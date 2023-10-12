@@ -1,0 +1,42 @@
+/* Add padding to the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style the header */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style the form inputs */
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Center align the form */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the 'Delete' links */
+a {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
